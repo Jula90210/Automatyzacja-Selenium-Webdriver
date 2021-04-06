@@ -25,4 +25,4 @@ Kroki:
 
 II Oczekiwany rezultat: Rejestracja nie powodzi się. Użytkownik dostaje informację, że wprowadzony e-mail jest niepoprawny.
 
-III Uwagi koncowe: Automatyzacja przypadku testowego (test funkcjonalny) powiodła się. Test może być wrażliwy na zmianę struktury strony z powodu konieczności stosowania długich ścieżek w lokalizatorach XPATH i CSS Selector. 
+III Uwagi koncowe: Automatyzacja przypadku testowego (test funkcjonalny) powiodła się. Test może być wrażliwy na zmianę struktury strony z powodu konieczności stosowania długich ścieżek w lokalizatorach **XPATH** i **CSS Selector**. 
