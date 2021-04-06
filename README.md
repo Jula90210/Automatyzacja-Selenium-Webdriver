@@ -3,8 +3,11 @@
 I Przypadek testowy
 
 ID: 001
+
 Tytuł: Rejestracja nowego użytkownika używając niepoprawnego adresu e-mail
+
 Środowisko: Chrome wersja 89.0.4389.90, Ubuntu 20.04 LTS
+
 Warunek wstępny: Uruchomiona przeglądarka. Użytkownik nie jest zalogowany.
 
 Kroki: 
@@ -20,4 +23,6 @@ Kroki:
 10. Wybierz kraj  
 11. Zaakceptuj politykę prywatności  
 
-Oczekiwany rezultat: Rejestracja nie powodzi się. Użytkownik dostaje informację, że wprowadzony e-mail jest niepoprawny.
+II Oczekiwany rezultat: Rejestracja nie powodzi się. Użytkownik dostaje informację, że wprowadzony e-mail jest niepoprawny.
+
+III Uwagi koncowe: Automatyzacja przypadku testowego (test funkcjonalny) powiodła się. Test może być wrażliwy na zmianę struktury strony z powodu konieczności stosowania długich ścieżek w lokalizatorach XPATH i CSS Selector. 
