@@ -10,7 +10,7 @@
 
 **Warunek wstępny:** Uruchomiona przeglądarka. Użytkownik nie jest zalogowany.
 
-##**Kroki:**##
+## **Kroki:** ##
 1. Wejdź na stronę "https://wizzair.com/pl-pl#/"
 2. Kliknij "ZALOGUJ SIĘ" 
 3. Kliknij "REJESTRACJA" 
@@ -23,6 +23,6 @@
 10. Wybierz kraj  
 11. Zaakceptuj politykę prywatności  
 
-##**II Oczekiwany rezultat:**## Rejestracja nie powodzi się. Użytkownik dostaje informację, że wprowadzony e-mail jest niepoprawny.
+## **II Oczekiwany rezultat:** ## Rejestracja nie powodzi się. Użytkownik dostaje informację, że wprowadzony e-mail jest niepoprawny.
 
-##**III Uwagi koncowe:**## Automatyzacja przypadku testowego (test funkcjonalny) powiodła się. Test może być wrażliwy na zmianę struktury strony z powodu konieczności stosowania długich ścieżek w lokalizatorach **XPATH** i **CSS Selector**. 
+## **III Uwagi koncowe:** ## Automatyzacja przypadku testowego (test funkcjonalny) powiodła się. Test może być wrażliwy na zmianę struktury strony z powodu konieczności stosowania długich ścieżek w lokalizatorach **XPATH** i **CSS Selector**. 
