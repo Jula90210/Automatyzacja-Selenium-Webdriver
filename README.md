@@ -1,6 +1,6 @@
 # Automatyzacja przypadku testowego przy pomocy Selenium-Webdriver #
 
-##**I Przypadek testowy**##
+## **I Przypadek testowy** ##
 
 **ID:** 001
 
