@@ -31,5 +31,5 @@ Automatyzacja przypadku testowego (test funkcjonalny) powiodła się. Test może
 
 ![wizzair2 projekt1](https://user-images.githubusercontent.com/53537695/113926992-2f355600-97ed-11eb-8779-5b91ba92e343.png)
 
-<img src="https://github.com/Jula90210/Automatyzacja-Selenium-Webdriver/blob/master/wizzair%20projekt1.png" width="400" height="400" />
+<img src="https://github.com/Jula90210/Automatyzacja-Selenium-Webdriver/blob/master/wizzair%20projekt1.png" width="800" height="700" />
 
