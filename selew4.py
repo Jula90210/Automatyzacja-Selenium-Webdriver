@@ -102,7 +102,6 @@ class WizzairRegistration(unittest.TestCase):
         assert visible_errors[0].text == "Nieprawidłowy adres e-mail"
         self.assertEqual(visible_errors[0].text, "Nieprawidłowy adres e-mail") #(prawie to samo czysty Python)
 
-
         time.sleep(4)
     # Jesli uruchamiamy z tego pliku
 if __name__=="__main__":
