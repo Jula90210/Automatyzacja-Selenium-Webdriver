@@ -80,6 +80,29 @@ class WizzairRegistration(unittest.TestCase):
     # Krok 11. Zaakceptuj polityke prywatnosci
         driver.find_element_by_xpath('//label[@for="checkbox-privacyPolicy"]').click()
 
+    # UWAGA! TUTAJ BĘDZIE TEST !!!
+    # Wyszukaj wszystkie możliwe błędy
+    # ..find_elements... zwraca LISTĘ WebElementów
+        possible_errors = driver.find_elements_by_xpath('//span[@class="input-error__message"]/span')
+    # Sprawdź, które są widoczne
+        # Pusta lista na widoczne błędy
+        visible_errors = []
+    # Dla kazdego bledu w liscie possible_errors
+        for error in possible_errors:
+    # Jesli blad jest widoczny
+            if error.is_displayed():
+    # Dodaj go do listy widocznych
+                visible_errors.append(error)
+    # !!!!!!Sprawdź czy widoczny jest tylko jeden z nich
+    # Czy lista visible_errors zawiera wylacznie 1 element
+        assert len(visible_errors) == 1  #"czysty Python"
+        self.assertEqual(len(visible_errors), 1) # metoda unittestowa (prawie to samo)
+    # Sprawdź czy treść jest poprawna: "Nieprawidłowy adres email"
+        print("Tekst bledu na stronie: ", visible_errors[0].text)
+        assert visible_errors[0].text == "Nieprawidłowy adres e-mail"
+        self.assertEqual(visible_errors[0].text, "Nieprawidłowy adres e-mail") #(prawie to samo czysty Python)
+
+
         time.sleep(4)
     # Jesli uruchamiamy z tego pliku
 if __name__=="__main__":
