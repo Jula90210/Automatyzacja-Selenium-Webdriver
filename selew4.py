@@ -42,7 +42,7 @@ class WizzairRegistration(unittest.TestCase):
         zaloguj_btn.click()
         #print(type(zaloguj_btn))
     # Poczekajmy 15 sekund zeby zdazyc zauwazyc co sie dzieje
-        time.sleep(15)
+        #time.sleep(15)
     # Krok 2. Rejestracja
         driver.find_element_by_css_selector('button[data-test="registration"]').click()
     # Krok 3. Wpisz imie
@@ -60,7 +60,7 @@ class WizzairRegistration(unittest.TestCase):
             name_input.click()
             # Wybierz mezczyzne
             driver.find_element_by_xpath('//label[@data-test="register-gendermale"]').click()
-        time.sleep(4)
+        #time.sleep(4)
     # Krok 6. Wybierz kraj
         driver.find_element_by_xpath('//div[@data-test="booking-register-country-code"]').click()
         cc_input = driver.find_element_by_name('phone-number-country-code')
