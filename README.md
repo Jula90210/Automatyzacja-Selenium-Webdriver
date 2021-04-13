@@ -33,8 +33,6 @@ Automatyzacja przypadku testowego (test funkcjonalny) powiodła się. Test może
 <p align="center">
     <img src="https://github.com/Jula90210/Automatyzacja-Selenium-Webdriver/blob/master/wizzair%20projekt1.png" width="750" />
     
-<p align="center">       
-    <img src"=https://github.com/Jula90210/Automatyzacja-Selenium-Webdriver/blob/master/wizzair2%20test%20case2.png" width="750" />
     
 ## **II Przypadek testowy:** ##
 
@@ -65,5 +63,6 @@ Rejestracja nie powodzi się. Użytkownik dostaje informację, że wprowadzony n
 ## **III Uwagi końcowe:** ## 
 Automatyzacja przypadku testowego (test funkcjonalny) powiodła się. Test może być wrażliwy na zmianę struktury strony z powodu konieczności stosowania długich ścieżek w lokalizatorach **XPATH** i **CSS Selector**.
 
-
+<p align="center">       
+    <img src"=https://github.com/Jula90210/Automatyzacja-Selenium-Webdriver/blob/master/wizzair2%20test%20case2.png" width="750" />
 
