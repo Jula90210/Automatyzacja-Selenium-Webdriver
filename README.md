@@ -64,5 +64,5 @@ Rejestracja nie powodzi się. Użytkownik dostaje informację, że wprowadzony n
 Automatyzacja przypadku testowego (test funkcjonalny) powiodła się. Test może być wrażliwy na zmianę struktury strony z powodu konieczności stosowania długich ścieżek w lokalizatorach **XPATH** i **CSS Selector**.
 
 <p align="center">       
-    <img src="https://github.com/Jula90210/Automatyzacja-Selenium-Webdriver/blob/master/wizzair2%20test%20case2.png" width="750" /> 
+    <img src="https://github.com/Jula90210/Automatyzacja-Selenium-Webdriver/blob/master/wizzair2%20test%20case2.png" width="650" /> 
 
