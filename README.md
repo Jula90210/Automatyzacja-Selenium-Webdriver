@@ -31,7 +31,7 @@ Automatyzacja przypadku testowego (test funkcjonalny) powiodła się. Test może
 
 
 <p align="center">
-    <img src="https://github.com/Jula90210/Automatyzacja-Selenium-Webdriver/blob/master/wizzair%20projekt1.png" width="850" />
+    <img src="https://github.com/Jula90210/Automatyzacja-Selenium-Webdriver/blob/master/wizzair%20projekt1.png" width="900" />
     
     
 ## **II Przypadek testowy:** ##
